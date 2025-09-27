@@ -1,3 +1,5 @@
+console.log("script loaded");
+
 // Get references
 const canvas = document.getElementById('meme-canvas');
 const ctx = canvas.getContext('2d');
