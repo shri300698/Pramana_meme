@@ -7,10 +7,10 @@ const textInput = document.getElementById('text-input');
 
 // List of images
 const imageList = [
-  '1758904107482~2.jpeg',
-  '1758904107482~3.jpeg',
-  '1758904107482~4.jpeg',
-  '1758904107482~5.jpeg'
+  '1.jpeg',
+  '2.jpeg',
+  '3.jpeg',
+  '4.jpeg'
 ];
 function drawWrappedText(ctx, text, x, y, maxWidth, lineHeight) {
   const words = text.split(' ');
